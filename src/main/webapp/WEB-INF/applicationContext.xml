@@ -11,7 +11,9 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
 	<context:component-scan base-package="in.vianext.society">
-	<context:exclude-filter type="annotation" expression="in.vianext.society.controller"/>	
+		<context:exclude-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
  
+
 </beans>
