@@ -15,7 +15,7 @@
 
 	<definition name="users" extends="common">
 		<put-attribute name="title" value="Users" />
-		<put-attribute name="body" value="/WEB-INF/jsp/users.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/Users.jsp" />
 		<put-attribute name="current" value="users" />
 	</definition>
 
