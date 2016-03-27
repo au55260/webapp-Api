@@ -14,8 +14,20 @@ public class User {
 	private String password;
 	private String email;
 	private String bolg;
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
 	
-	
+	public User(Integer id, String name, String password, String email,
+			String bolg) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.password = password;
+		this.email = email;
+		this.bolg = bolg;
+	}
+
 	public Integer getId() {
 		return id;
 	}
